@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "scarymonsters",
+  "version": "${version}",
+  "name": "Scary Monsters - Steel Ball Run",
+  "description": "Diego Brando's dinosaur power: transform into a dino-man in 4 Forms, 16 attacks, and fight with raptor and T-Rex allies.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.scarymonsters.ScaryMod"
+    ],
+    "client": [
+      "com.scarymonsters.client.ScaryClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "scarymonsters:item/scary_form1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "scarymonsters:form": 0.2
+      },
+      "model": "scarymonsters:item/scary_form2"
+    },
+    {
+      "predicate": {
+        "scarymonsters:form": 0.3
+      },
+      "model": "scarymonsters:item/scary_form3"
+    },
+    {
+      "predicate": {
+        "scarymonsters:form": 0.4
+      },
+      "model": "scarymonsters:item/scary_form4"
+    }
+  ]
+}
